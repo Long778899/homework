@@ -3,7 +3,7 @@
 ##交易hash:0x695834855a0c575563d3b449493352f4492fe50d36851e1a2495d7dac6b7f648
 
 交易截图
-![交易截图](https://github.com/Long778899/homework/blob/main/w1_1/eb406fa6c2c45fb25ac271a73115024.png)
+![交易截图](eb406fa6c2c45fb25ac271a73115024.png)
 
 ```
 // SPDX-License-Identifier: MIT
