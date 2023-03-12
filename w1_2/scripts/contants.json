@@ -1,0 +1,9 @@
+{
+    "goerli": {
+      "INIT": 5
+    },
+  
+    "localdev": {
+      "INIT": 0
+    }
+  }
