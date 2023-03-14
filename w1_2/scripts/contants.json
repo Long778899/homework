@@ -1,8 +1,10 @@
 {
     "goerli": {
-      "INIT": 5
+      "INIT": 0
     },
-  
+    "sepolia": {
+      "INIT": 0
+    },
     "localdev": {
       "INIT": 0
     }

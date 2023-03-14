@@ -1,11 +1,14 @@
 require("@nomicfoundation/hardhat-toolbox");
 require('hardhat-abi-exporter');
 require("./task/balance.js");
+require("@nomiclabs/hardhat-etherscan");
+require('dotenv').config();
 
 let dotenv = require('dotenv')
 dotenv.config({ path: "./.env" })
 
 const mnemonic = process.env.MNEMONIC
+const privateKey=process.env.PRIVATE_KEY
 const scankey = process.env.ETHERSCAN_API_KEY
 // const privateKey = process.env.PRIVATEKEY
 
@@ -31,14 +34,14 @@ module.exports = {
     // },
     goerli: {
       url: "https://eth-goerli.api.onfinality.io/public",
-      // accounts: {
-      //   mnemonic: mnemonic,
-      //   sprocess.env.PRIVATE KEY
-      // },
-      accounts:['225eaf9bb94ad8eb88a1520ab27288902d2cd0564ee7a3de0265559304b9a03a'],
+      accounts: [privateKey],
       chainId: 5,
     },
-
+    sepolia: {
+      url: "https://rpc.sepolia.org",
+      accounts: [privateKey],
+      chainId: 11155111,
+    },
   },
 
 
@@ -52,7 +55,7 @@ module.exports = {
   },
 
   etherscan: {
-    apiKey: scankey
+    apiKey: scankey,
 },
 
 };
