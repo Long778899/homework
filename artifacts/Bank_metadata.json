@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getbalances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "input",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"w2_1\\contracts\\Bank.sol": "Bank"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"w2_1\\contracts\\Bank.sol": {
+			"keccak256": "0x79780268caeb77428089f95a4ab03cde52b55f3d9288c4dd8c80bfe0451f6d5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://381603f5b9c49a5345728537dd6464c43c97c4ac14ca61c2b07bac6a7b988f5a",
+				"dweb:/ipfs/QmNc4bM6BQg9EWRPLqunKJLwWw4LAC7CqVNjpK3SwCMDLp"
+			]
+		}
+	},
+	"version": 1
+}

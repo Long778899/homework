@@ -1,0 +1,14 @@
+{
+    "goerli": {
+      "INIT": 0
+    },
+    "sepolia": {
+      "INIT": 0
+    },
+    "mumbai": {
+      "INIT": 0
+    },
+    "localdev": {
+      "INIT": 0
+    }
+  }
